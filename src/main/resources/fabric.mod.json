@@ -1,39 +1,41 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "dahmersdelight",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Dahmer's Delight",
+	"description": "A Farmer's Delight addon that adds cannibalism.",
 	"authors": [
-		"Me!"
+		"AlignedCookie88"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/dahmersdelight",
+		"sources": "https://github.com/AlignedCookie88/DahmersDelight",
+		"issues": "https://github.com/AlignedCookie88/DahmersDelight/issues"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "GNU GPL v3.0",
+	"icon": "assets/dahmersdelight/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.alignedcookie88.dahmersdelight.DahmersDelightMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.alignedcookie88.dahmersdelight.DahmersDelightModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"dahmersdelight.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "dahmersdelight.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.15.0",
-		"minecraft": "~1.20.4",
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"farmersdelight": ">=1.4.3"
 	},
 	"suggests": {
 		"another-mod": "*"

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "",
+  "group": "",
+  "show_notification": false,
+  "ingredient": {
+    "item": "dahmersdelight:minced_human"
+  },
+  "result": "dahmersdelight:human_patty",
+  "experience": 5,
+  "cookingtime": 600
+}

@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "dahmersdelight:raw_human_meat"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "dahmersdelight:minced_human"
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  }
+}

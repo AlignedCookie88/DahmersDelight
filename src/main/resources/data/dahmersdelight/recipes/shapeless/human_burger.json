@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "",
+  "group": "",
+  "show_notification": false,
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "dahmersdelight:human_patty"
+    },
+    {
+      "tag": "c:salad_ingredients"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "result": {
+    "item": "dahmersdelight:human_burger",
+    "count": 1
+  }
+}

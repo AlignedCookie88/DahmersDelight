@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "",
+  "group": "",
+  "show_notification": false,
+  "ingredient": {
+    "item": "dahmersdelight:raw_human_meat"
+  },
+  "result": "dahmersdelight:cooked_human_meat",
+  "experience": 5,
+  "cookingtime": 200
+}

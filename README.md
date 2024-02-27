@@ -1,9 +1,5 @@
-# Fabric Example Mod
+# Dahmer's Delight
 
-## Setup
+A [Farmer's Delight](https://modrinth.com/mod/farmers-delight-fabric) addon that adds cannibalism.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Download from [Modrinth](https://modrinth.com/mod/dahmersdelight). (sorry curseforge launcher users)
